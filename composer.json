@@ -1,19 +1,19 @@
 {
-    "name": "psliwa/pdf-bundle",
-    "description": "This bundle integrates Symfony2 with PHPPdf library.",
+    "name": "fbeen/pdf-bundle",
+    "description": "This bundle is the same as psliwa/pdf-bundle but works with Symfony 3.3.",
     "keywords": ["PDF", "PHPPdf"],
     "type": "symfony-bundle",
     "license": "MIT",
     "authors": [
         {
-            "name":     "Piotr Śliwa",
-            "homepage": "http://psliwa.org",
-            "email":    "me@psliwa.org"
+            "name":     "Frank Beentjes",
+            "homepage": "http://php-programmer.nl",
+            "email":    "frankbeen@gmail.com"
         }     
     ],
     "require": {
         "php": ">=5.3.0",
-        "symfony/symfony": "~2.3|~3.0",
+        "symfony/symfony": "~3.0|~3.3",
         "psliwa/php-pdf": "^1.1.5",
         "sensio/framework-extra-bundle": ">=2.0 <4.0.0"
     },
