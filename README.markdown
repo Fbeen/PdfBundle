@@ -12,7 +12,7 @@ Installation
 
   1. Use composer. PsPdfBundle requires "minimum-stability" equals to dev. Run this command:
 
-        composer require psliwa/pdf-bundle
+        composer require fbeen/pdf-bundle dev-master
 
   2. Register bundle in AppKernel:
 
